@@ -92,7 +92,7 @@
 #card-section .card-container .card {
   max-width: 380px;
   max-height: 580px;
-  border: 1px solid red;
+  /* border: 1px solid red; */
 }
 
 #card-section .img-container {
@@ -107,11 +107,22 @@
   display: flex;
 }
 
-#about img-section {
-  max-width: 40px;
-  border: 1px solid red;
+#about .img-section {
+  max-width: 961px;
+  /* border: 1px solid red; */
 }
 
-#about img-section img {
+#about .img-section img {
   width: 100%;
+}
+
+#about .about-text {
+  text-align: center;
+  margin: auto 60px;
+}
+
+#about .about-text h1,
+p,
+h5 {
+  margin: 30px 0;
 }
